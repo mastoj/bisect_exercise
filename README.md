@@ -18,3 +18,10 @@ else
     exit 0
 fi
 ```
+
+Hints:
+* `git bisect start`
+* `git bisect bad HEAD`
+* `git log --oneline`
+* `git bisect good <ref>`
+* `git bisect run ./test.sh`
